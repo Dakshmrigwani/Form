@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Application form</title>
+  <link href="./index.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="format-form">
+  <div class="form1">
+    <h1>Tell me how you can help our company</h1>
+  </div>
+  <div class="form2">
+    <strong>*This symbol represents the important information. please kindly fill all</strong>
+  </div>
+  <div class="form3">
+  <b>Name:</b> <input type="text" name="fname" placeholder="Johndoe"required><span id="pol" style="color:red;font-size:20px"></span>
+  </div>
+  <div class="form4">
+    <id="email"><b>*E-mail</b>
+    <input type="text" name="femail" placeholder="johndoe@gmail.com" required><span id="pol1" style="color:red;font-size:20px"></span>
+  </div>
+  <div class="form5">
+    <b>*Age</b><input type="age" name="fage" placeholder="eg-20" required><span id="pol2" style="color:red;font-size:20px"></span>
+  </div>
+  <div class="form11">
+  <b>*Phone no:</b><input type="phone" name="fphone" placeholder="656757575757" required><span id="pol3" style="color:red;font-size:20px"></span>
+  </div>
+  <div class="form6">
+    <div class="row">
+      <div class="col-2 d-flex" style="margin-left:20px" >
+        <id ="role"><b>*which role describes you best for the job</b>
+      </div>
+    </div>
+      <div style="margin-left: 120px;margin-top:-90px;">
+        <select name="role">
+        <option value="wordpress developer">Wordpress developer</option>
+        <option value="Java developer"> developer</option>
+        <option value="python developer">Python developer</option>
+        <option value="php developer">Php developer</option>        
+        <option value="Ruby developer">Ruby developer</option>
+        <option value="Jr. Frontend developer">Jr.Frontend developer</option>
+        <option value="Sr. Frontend developer">Sr.Frontend developer</option>
+        <option value="Full stack developer">Full stack developer</option>
+        <option value="Jr. backend developer">Jr. backend developer</option>
+        <option value="Sr. backend developer">Sr.backend developer</option>
+        <option value="Unity developer">Unity developer</option>
+        <option value="Manager">Manager</option>
+        <option value="Client acquisition">Client acquisition</option>
+      </div>
+    </select>
+  </div>
+  <div class="form7">
+    <div class="col-2 d-flex" style="margin-left:160px;margin-top:20px;">
+      <b>In which area you can help us to improve</b>
+    </div>
+      <div class="row" style="width:500px;height:auto;">
+        <div class="col-8 col-sm-8" style="margin-left:320px;margin-top:-80px;">
+          <input type="checkbox" name="improve1">
+          <label for="improve1">Frontend development</label><br>
+          <input type="checkbox" name="improve2">
+          <label for="improve2">Backend development</label><br>
+          <input type="checkbox" name="improve3">
+          <label for="improve3">Web development</label><br>
+          <input type="checkbox" name="improve4">
+          <label for="improve4">App development</label><br>
+          <input type="checkbox" name="improve5">
+          <label for="improve5">Game development</label><br>
+          <input type="checkbox" name="improve6">
+          <label for="improve6">ios development</label><br>
+          <input type="checkbox" name="improve7">
+          <label for="improve7">Client acquisition</label><br>
+          <input type="checkbox" name="improve8">
+          <label for="improve8">Management</label><br>
+        </div>
+      </div>
+  </div>
+  <div class="form8">
+    <b>*Total experience</b><input type ="exp" name="fexp" placeholder="eg-12years" required><span id="pol4" style="color:red;font-size:20px"></span>
+  </div>
+  <div class="form9">
+    <div class="col-2 col-sm-5">
+      <id="comment"><b>Comment or suggestion</b><br>
+    </div>
+      <div style="margin-left:200px;margin-top:-20px">
+        <textarea name="fcomment" rows="6" cols="20" placeholder="I like to.........."></textarea>
+      </div>
+  </div>
+  <div class="form10">
+    <input type="submit" value="Submit" onclick="myfunction();myfunction1();myfunction2();myfunction3();myfunction4()" class="mya">
+  </div>
+  </form>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
+      
+    
+  
